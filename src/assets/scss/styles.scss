@@ -1,0 +1,18 @@
+///* ======以下是第三方scss与css引入======*/
+
+//bootstrap
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+
+//font-awesome
+@import './font-awesome/font-awesome.scss';
+
+
+
+/* ======以下是自定义scss引入======*/
+
+//公共样式
+@import './views/app-base.scss';
+@import './views/variables.scss';
+
+//登录
+@import './views/login.scss';

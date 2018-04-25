@@ -1,13 +1,6 @@
-<header class="app-header navbar">
-  <ul>
-    <li>
-      <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-    </li>
-    <li>
-      <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-    </li>
-    <li>
-      <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-    </li>
+<header class="app-header">
+  <ul class="header-nav">
+    <li><a [routerLink]="['/base/base']" routerLinkActive='active'>基础</a></li>
+    <li><a [routerLink]="['/main/main']" routerLinkActive='active'>主体</a></li>
   </ul>
 </header>

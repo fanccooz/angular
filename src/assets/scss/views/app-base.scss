@@ -1,0 +1,24 @@
+//基础
+li {
+  list-style: none;
+}
+a {
+  color: #ffffff;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+//头部
+
+.app-header {
+  background-color: dodgerblue;
+  overflow: hidden;
+  ul {
+    li {
+      float: left;
+      padding: 10px 20px;
+      color: #ffffff;
+    }
+  }
+}

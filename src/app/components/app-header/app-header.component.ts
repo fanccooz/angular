@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-
 declare var $:any;
 
 @Component({
@@ -10,7 +9,6 @@ declare var $:any;
 export class AppHeaderComponent implements OnInit {
 
   ngOnInit(): void {
-
   }
 }
 
